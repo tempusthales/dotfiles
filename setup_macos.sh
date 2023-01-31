@@ -137,8 +137,12 @@ echo Installing Pipenv + pyenv
 brew install pipenv pyenv
 echo ✅ Done
 
-echo Installing tabby and vscode
-brew install tabby vscode
+echo Installing tabby
+brew install tabby
+echo ✅ Done
+
+echo Installing Visual Studio Code
+brew install --cask visual-studio-code
 echo ✅ Done
 
 echo Unlinking Python3 to encourage pyenv use
