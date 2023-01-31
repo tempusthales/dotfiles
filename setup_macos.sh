@@ -129,6 +129,10 @@ echo ✅ Done
 #
 ###
 
+echo Installing mas
+brew install mas
+echo ✅ Done
+
 echo Installing Pipenv + pyenv
 brew install pipenv pyenv
 echo ✅ Done
@@ -172,6 +176,44 @@ echo "Setting default branch name to 'main'"
 git config --global init.defaultBranch main
 echo ✅ Done
 
+echo Installing Slack
+brew install Slack
+echo ✅ Done
+
+echo Installing mackup
+brew install mackup
+echo ✅ Done
+
+echo Install GitHub Desktop
+brew install --cask github
+echo ✅ Done
+
+echo Install Firefox
+brew install --cask firefox
+echo ✅ Done
+
+echo Install Docker
+brew install docker
+echo ✅ Done
+
+###
+#
+# Mac App Store
+#
+###
+
+echo Install Magnet from Mac App Store
+mas install 441258766
+echo ✅ Done
+
+echo Install Affinity Photo 2
+mas install 1616822987
+echo ✅ Done
+
+echo Install Affinity Designer 2
+mas install 1616831348
+echo ✅ Done
+
 ###
 #
 # Config Files
@@ -210,39 +252,14 @@ echo $'Configuration:
 [ ] Internet Accounts (Preferences > Internet Accounts)
   [ ] Activate "Contacts" and "Calendars" for any inactive Google accounts"
 
-Mac App Store:
-- Affinity Designer
-- Affinity Photo
-- GIF Brewery
-- Termius
-- Magnet
-- Soulver 3
-- Broadcasts
-
-Downloads:
-- Firefox: https://www.mozilla.org/en-US/firefox/new/
-- VS Code: https://code.visualstudio.com/docs/\?dv=osx
-  - Install Settings Sync to grab settings from your "cloudSettings" gist
-- iStat Menus: https://bjango.com/mac/istatmenus/
-  - Preferences > Date & Time > Clock > Uncheck "Show date and time in menu bar"
-- BetterTouchTool: https://folivora.ai/downloads
-  - Basic Settings
-    - Check "Launch BetterTouchTool on startup"
-    - Check "Enable window snapping"
-- Docker: https://store.docker.com/editions/community/docker-ce-desktop-mac
-- Tower: https://www.git-tower.com/mac
-- SoundSource: https://rogueamoeba.com/soundsource/
-- iTerm: https://iterm2.com/downloads.html
-  - Run `p10k configure` and install "Meslo nerd font" when prompted for PL icons and ligatures
-
 Arrangement:
 
 - The DOCK\'s pinned applications are typically arranged as such (left-to-right):
-  - Finder, Firefox, Chrome, VS Code, <git client>, <chat clients>, Airmail, Clementine
+  - Finder, Firefox, Chrome, VS Code, <git client>, <chat clients>,
 - The FINDER\'s sidebar Favorites section is typically arranged as such (top-to-bottom):
-  - iCloud Drive, Desktop, mmiller (~/), Applications, Repos, Screenshots, Downloads, Documents
+  - iCloud Drive, Desktop, Userfolder (~/), Applications, Repos, Screenshots, Downloads, Documents
 - The MENU BAR\'s bits are typically arranged as such (left-to-right):
-  - BetterTouchTool, 1Password, IME, Volume, Wifi, VPN, Bluetooth, iStat Menu Weather, iStat Menu CPU, MacOS Battery, iStat Menu Clock
+  - 1Password, Volume, Wifi, VPN, Bluetooth, MacOS Battery
 '> ~/Desktop/NextSteps.txt
 echo ✅ Done
 
