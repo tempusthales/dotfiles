@@ -45,17 +45,17 @@ echo ✅ Done
 # echo ✅ Done
 
 echo Setting Screenshots to save to "~/Library/CloudStorage/OneDrive-Whatever/Screenshots"
-mkdir ~/Library/CloudStorage/OneDrive-Tesla/Screenshots
+mkdir ~/Library/CloudStorage/OneDrive-Whatever/Screenshots
 defaults write com.apple.screencapture location "~/Library/CloudStorage/OneDrive-Whatever/Screenshots"
 echo ✅ Done
 
 echo Setting Screenshots to save to "~/Library/CloudStorage/OneDrive-Whatever/scripts"
-mkdir ~/Library/CloudStorage/OneDrive-Tesla/scripts
+mkdir ~/Library/CloudStorage/OneDrive-Whatever/scripts
 defaults write com.apple.screencapture location "~/Library/CloudStorage/OneDrive-Whatever/scripts"
 echo ✅ Done
 
 echo Setting Screenshots to save to "~/Library/CloudStorage/OneDrive-Whatever/repos"
-mkdir ~/Library/CloudStorage/OneDrive-Tesla/repos
+mkdir ~/Library/CloudStorage/OneDrive-Whatever/repos
 defaults write com.apple.screencapture location "~/Library/CloudStorage/OneDrive-Whatever/repos"
 echo ✅ Done
 
