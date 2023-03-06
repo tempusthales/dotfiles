@@ -44,19 +44,19 @@ echo ✅ Done
 # defaults write com.apple.screencapture location ~/Screenshots
 # echo ✅ Done
 
-echo Setting Screenshots to save to "~/Library/CloudStorage/OneDrive-Tesla/Screenshots"
+echo Setting Screenshots to save to "~/Library/CloudStorage/OneDrive-Whatever/Screenshots"
 mkdir ~/Library/CloudStorage/OneDrive-Tesla/Screenshots
-defaults write com.apple.screencapture location "~/Library/CloudStorage/OneDrive-Tesla/Screenshots"
+defaults write com.apple.screencapture location "~/Library/CloudStorage/OneDrive-Whatever/Screenshots"
 echo ✅ Done
 
-echo Setting Screenshots to save to "~/Library/CloudStorage/OneDrive-Tesla/scripts"
+echo Setting Screenshots to save to "~/Library/CloudStorage/OneDrive-Whatever/scripts"
 mkdir ~/Library/CloudStorage/OneDrive-Tesla/scripts
-defaults write com.apple.screencapture location "~/Library/CloudStorage/OneDrive-Tesla/scripts"
+defaults write com.apple.screencapture location "~/Library/CloudStorage/OneDrive-Whatever/scripts"
 echo ✅ Done
 
-echo Setting Screenshots to save to "~/Library/CloudStorage/OneDrive-Tesla/repos"
+echo Setting Screenshots to save to "~/Library/CloudStorage/OneDrive-Whatever/repos"
 mkdir ~/Library/CloudStorage/OneDrive-Tesla/repos
-defaults write com.apple.screencapture location "~/Library/CloudStorage/OneDrive-Tesla/repos"
+defaults write com.apple.screencapture location "~/Library/CloudStorage/OneDrive-Whatever/repos"
 echo ✅ Done
 
 echo Disabling shadows on full-screen screenshots
